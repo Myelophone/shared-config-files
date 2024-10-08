@@ -36,6 +36,7 @@ web-build/
 
 # Vite
 .vite/
+stats.html
 
 # Golang
 *.exe
