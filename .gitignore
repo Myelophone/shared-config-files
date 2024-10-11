@@ -5,6 +5,10 @@
 Icon
 ._*
 
+# artillery reports
+report.html
+report.json
+
 # Node.js
 node_modules/
 npm-debug.log
