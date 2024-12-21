@@ -9,6 +9,9 @@ Icon
 report.html
 report.json
 
+# generated ts files
+*.gen.ts
+
 # Node.js
 node_modules/
 npm-debug.log
