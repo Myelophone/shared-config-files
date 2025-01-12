@@ -38,10 +38,11 @@
 		"enabled": true,
 		"defaultBranch": "main",
 		"clientKind": "git",
-		"useIgnoreFile": true
+		"useIgnoreFile": false
 	},
 	"files": {
-		"ignore": ["dist/**", "*.cjs", "*.mjs", "*.d.ts", "*.spec.ts", "node_modules/**", ".yarn/**"]
+		"ignore": ["dist/**", "*.cjs", "*.mjs", "*.d.ts", "*.spec.ts", "node_modules/**", ".yarn/**"],
+		"ignoreUnknown": false
 	},
 	"javascript": {
 		"formatter": {
