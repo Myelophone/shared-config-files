@@ -1,0 +1,17 @@
+pre-commit:
+  parallel: true
+  commands:
+    format:
+      files: git ls-files -m
+      glob: "*.go"
+      run: go fmt {files}
+    lint:
+      files: git ls-files -m
+      glob: "*.go"
+      run: golangci-lint run {files}
+    test:
+      run: go test ./...
+    vet:
+      files: git ls-files -m
+      glob: "*.go"
+      run: go vet {files}
