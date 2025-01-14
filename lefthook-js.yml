@@ -12,3 +12,5 @@ pre-push:
     check:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc,css,scss,sass,md,mdx}"
       run: npx @biomejs/biome check --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {push_files}
+    packages-audit:
+      run: yarn npm audit
