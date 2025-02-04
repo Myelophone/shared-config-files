@@ -499,3 +499,8 @@ install-state.gz
 
 # settings file for project
 myelophone.js
+
+.million
+
+test-results
+playwright-report

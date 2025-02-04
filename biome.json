@@ -41,8 +41,7 @@
 		"useIgnoreFile": false
 	},
 	"files": {
-		"ignore": ["dist/**", "*.cjs", "*.mjs", "*.d.ts", "*.spec.ts", "node_modules/**", ".yarn/**"],
-		"ignoreUnknown": false
+		"ignore": ["dist/**", "*.cjs", "*.mjs", "*.d.ts", "node_modules/**", ".yarn/**"]
 	},
 	"javascript": {
 		"formatter": {
