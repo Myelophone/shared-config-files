@@ -28,7 +28,6 @@ npm-error.log
 *.map
 
 # React
-build/
 dist/
 web-build/
 
